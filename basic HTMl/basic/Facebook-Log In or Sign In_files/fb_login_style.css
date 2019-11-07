@@ -1,0 +1,96 @@
+#header{
+	background:#425F9C;
+}
+
+#header h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+@media (max-width: 780px) {
+  #header h2{
+	text-align: center;
+}
+}
+
+#signin{
+	margin-top: 2%;
+}
+
+#signin a{
+	color: white;
+}
+
+#btn{
+	background: lightblue;
+}
+
+#content{
+	background:linear-gradient(white,#D7DCEA);
+}
+
+#right-content h3{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#right-content p{
+	/*font-weight: bolder;*/
+	font-size: 20px;
+}
+
+#first_list li{
+	float: left;
+}
+
+#signup input:not([type="checkbox"]):not([type="radio"]){
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+@media (max-width: 780px) {
+  #signup input:not([type="checkbox"]):not([type="radio"]){
+	font-size: 13px;
+}
+}
+
+#birth{
+	margin-left: 5%;
+	font-weight: bold;
+}
+
+@media (max-width: 780px) {
+  #birth{
+	margin-left: 10%;
+	font-weight: bold;
+}
+}
+
+select{
+	padding: 2%;
+	width: 90px;
+}
+
+#signup a{
+	font-size: 12px;
+	line-height: 10px;
+}
+
+@media (max-width: 780px) {
+  #signup a{
+	margin-left: 7%;
+}
+}
+
+
+#terms p{
+	font-size: 10px;
+	/*margin-left: 5%;*/
+}
+
+#terms a{
+	/*font-size: 10px;*/
+	margin-left: 0%;
+}
